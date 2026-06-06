@@ -2,7 +2,7 @@
 
 Homebrew tap for `cxr`.
 
-This repository is a local scaffold. Replace the placeholder checksum with the value from the GitHub release asset before publishing.
+This tap is kept in sync from `suzuuuu09/cxr` release assets.
 
 ## Layout
 
@@ -14,3 +14,5 @@ This repository is a local scaffold. Replace the placeholder checksum with the v
 brew tap suzuuuuu09/cxr
 brew install cxr
 ```
+
+The formula is updated automatically by the `sync` GitHub Action.
