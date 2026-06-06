@@ -8,7 +8,9 @@ class Cxr < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args(path: ".")
+    cd "cxr-#{version}" do
+      system "cargo", "install", *std_cargo_args(path: ".")
+    end
   end
 
   test do
